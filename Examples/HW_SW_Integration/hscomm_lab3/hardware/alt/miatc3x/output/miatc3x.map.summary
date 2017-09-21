@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 21 11:05:07 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : miatc3x
+Top-level Entity Name : miatc3x
+Family : Cyclone III
+Total logic elements : 2,661
+    Total combinational functions : 1,306
+    Dedicated logic registers : 1,978
+Total registers : 1978
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 233,472
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Sep 21 11:05:18 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : miatc3x
+Top-level Entity Name : miatc3x
+Family : Cyclone III
+Device : EP3C25F256C8
+Timing Models : Final
+Total logic elements : 2,487 / 24,624 ( 10 % )
+    Total combinational functions : 1,308 / 24,624 ( 5 % )
+    Dedicated logic registers : 1,978 / 24,624 ( 8 % )
+Total registers : 1978
+Total pins : 36 / 157 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 233,472 / 608,256 ( 38 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

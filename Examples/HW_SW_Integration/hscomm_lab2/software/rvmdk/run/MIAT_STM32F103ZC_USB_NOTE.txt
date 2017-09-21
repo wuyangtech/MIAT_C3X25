@@ -1,0 +1,26 @@
+USB Status
+裝置連接 Attached
+裝置供電 Powered
+裝置預設 Default
+裝置分配 Address
+裝置設定 Configuration
+裝置待命 Suspended 
+
+
+USB Interrupt Event Function
+
+void ISTR_CTR(void);
+void ISTR_SOF(void);
+void ISTR_ESOF(void);
+void ISTR_DOVR(void);
+void ISTR_ERROR(void);
+void ISTR_RESET(void);
+void ISTR_WAKEUP(void);
+void ISTR_SUSPEND(void);
+
+根據 CNTR_MASK 來開啟中斷事件
+// CNTR mask control
+//#define CNTR_MASK   CNTR_CTRM | CNTR_WKUPM | CNTR_SUSPM | CNTR_ERRM | CNTR_SOFM | CNTR_ESOFM | CNTR_RESETM | CNTR_DOVRM
+
+in STM32F10x USBLib USB_CONF.H
+#define IMR_MSK (CNTR_CTRM | CNTR_RESETM)
